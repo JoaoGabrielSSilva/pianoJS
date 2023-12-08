@@ -92,7 +92,7 @@ header .column span{
     height: 230px;
     border: 1px solid black;
     border-radius: 0 0 5px 5px;
-    background-color: linear-gradient( #fff 96%, #eee 4%);
+    background: linear-gradient( #fff 96%, #eee 4%);
 }
 
 .piano-keys .white:active{
@@ -107,7 +107,7 @@ header .column span{
     margin: 0 22px 0 -22px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: linear-gradient( #333, #000);
+    background: linear-gradient( #333, #000);
 }
 
 .piano-keys .black:active{
