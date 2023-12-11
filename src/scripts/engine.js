@@ -31,7 +31,7 @@ document.addEventListener("keydown", (e) => {
 });
 
 const handleVolume = (e) => {
-    audio.volume = e.target.volume;
+    audio.volume = e.target.value;
 }
 
 volumeSlider.addEventListener("input", handleVolume);
